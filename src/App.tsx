@@ -1,3 +1,4 @@
+/*
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -25,5 +26,19 @@ function App() {
 
 
 export default App;
-//without default
-// export { App };
+*/
+
+import {Component} from "react";
+import './App.css';
+
+class App extends Component{
+  render() {
+    return (
+        <div className = "app">
+            <h1>This is a App Component</h1>
+        </div>
+    );
+  }
+}
+//why use export default - export default is used to export a single value or component from a module.
+export default App;
