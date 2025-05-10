@@ -30,12 +30,16 @@ export default App;
 
 import {Component} from "react";
 import './App.css';
+import {Counter} from "./Counter/Counter";
 
 class App extends Component{
   render() {
     return (
         <div className = "app">
-            <h1>This is a App Component</h1>
+            {/*if you have any content using this type*/}
+            <Counter data={"sanduni"}></Counter>
+            {/*if you have't any content using this type*/}
+            {/*<Counter/>*/}
         </div>
     );
   }
