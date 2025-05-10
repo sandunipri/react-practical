@@ -25,3 +25,5 @@ function App() {
 
 
 export default App;
+//without default
+// export { App };
